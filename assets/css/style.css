@@ -114,6 +114,7 @@ header{
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+    box-shadow: 0 0px 8px  rgba(0,0,0,0.1);
 }
 
 /* .logo{
@@ -134,6 +135,7 @@ header{
 .icons{
     display: flex;
     align-items: center;
+     padding: 8px;
 }
 
 
