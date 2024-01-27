@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="menu-outline" onclick="toggleSidebar()"></ion-icon>
             <img src="../assets/img/1-removebg-preview1.png" alt="niniss">
         </div>
         <div class="search">
@@ -105,8 +105,48 @@
   <!-- Close side navigation -->
 
 
+        <div class="main-content">
+            <div class="videos">
+               
+                <div class="video-box">
+                    <img src="" alt="Video Thumbnail 1">
+                    <h3>Video Title 1</h3>
+                    <p>Video Description 1</p>
+                </div>
+    
+                <div class="video-box">
+                    <img src="g" alt="Video Thumbnail 2">
+                    <h3>Video Title 2</h3>
+                    <p>Video Description 2</p>
+                </div>
+    
+                <div class="video-box">
+                    <img src="" alt="Video Thumbnail 3">
+                    <h3>Video Title 3</h3>
+                    <p>Video Description 3</p>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+               
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                  
+                </ul>
+            </div>
+        </div>
     </main>
-
+    <div class="sidebar" id="sidebar">
+      
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Subscriptions</a></li>
+           
+        </ul>
+    </div>
 
     <footer>
         
@@ -114,5 +154,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <script src="../assets/javascript/script.js"></script>
 </body>
-</html>l
+
+</html>
