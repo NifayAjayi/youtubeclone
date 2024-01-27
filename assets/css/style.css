@@ -119,3 +119,39 @@ header{
     font-size: 6px;
   }
   
+  .main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Video Box styles */
+.videos {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-box {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+}
+
+.video-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-box h3 {
+    margin-top: 10px;
+}
+
+.sidebar ul{
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.sidebar-expanded ul{
+    width: 200px;
+}
