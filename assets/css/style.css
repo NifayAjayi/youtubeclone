@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 /* Form wrapper styling */
 .search-box form{
     width: 420px;
@@ -175,7 +176,8 @@ img.ns-logo{
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    /* background-color: #c00; */
+    background-color: #0f0f0f;
+    color: #f8f8f8;
   }
 
   
@@ -267,3 +269,12 @@ img.ns-logo{
   .menu-item img {
     margin-right: 24px;
   }
+
+  body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+main{
+    height: 100%;
+}
